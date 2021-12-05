@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Cambié el lenguaje de la etiqueta html para q este en español y si tenes el traductor de pag no forzar la traducción -->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
-    <link rel="stylesheet" href="./styles.css">
+    <!-- a google fonts yo lo instalo por import en la hoja de estilos pero las dos formas son viables -->
+    
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <!-- eliminé el primer link de font-awesome porque con el cdn de abajo es suficiente -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Cuando corrés el proyecto el html se lee de arriba hacia abajo, por lo q los estilos se sobre escriben. Por lo general la hoja de estilos se usa para personalizar cuestiones de estética por default del resto de los link de css entonces la coloco a lo ltimo  -->
+    
+    <!-- estaba mal linkeada la ruta a la hoja de estilos, en el app.js iniciaste como raiz la carpeta public por lo que para llegar al styles.css tenés primero que pasar por la carpeta css -->
+
+   <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
+
+    <!-- INICIO HEADER -->
     <header>
+        <!-- LOGO -->
         <div><img src="/img/logo-mercado-liebre.svg" alt=""></div>
         <div><p>Comprá en cuotas y sin tarjeta de crédito</p></div>
         <div>
