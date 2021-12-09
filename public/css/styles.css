@@ -1,12 +1,148 @@
-.imagenes{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 90vw;
+}
+
+header{
+    background-color:#EAC926;;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    width: 100vw;
+    border: solid 1px black;
+}
+.body-color{
+    background-color:#ebebeb;
+}
+
+.titulares{
+    font-size: 24px;
+    padding-left: 5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+.precio,.descuento,.descripcion{
+    padding-left: 15px;
+}
+
+.posicion-cen{
+    text-align: center;
+}
+.no-subrayado{
+    list-style-type: none;
+   
+}
+
+.burger-menu{
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    display: block;
+    width: 45px;
+    border-radius: 15%;
+    text-align: center;
+    margin: auto;
+}
+.tarjeta-credito{
+    font-size: 2em;
+    color:#03264C;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.regalo{
+    font-size: 2em;
+    color:#03264C;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.seguridad{
+    font-size: 2em;
+    color:#03264C;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logo{
     width: 300px;
-    height: 300px;
+}
+.banner-caja{
+    width: 100vw;
+}
+.banner{
+    width: 100%;
+}
+main{
+    background-color: gray;
+    width: 100vw;
+
+}
+.body-color{
+    width: 90vw;
+    margin: auto;
+    background-color: gray;
 }
 
-.texto-rojo{
-    color: red;
+/*div {
+    border: solid 1px red;
+  }*/
+
+a {
+    text-decoration: none;
+}
+.imagen-producto{
+    width: 90vw;
+}
+.icono{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:solid 1px red ;
+    text-align: center;
+    color:red;
+    font-size: 20px;
+    padding: 12px;
+    right: 20px;
+    position: absolute;
+    top: -25px;
+    background-color: white;
+}
+.icono-texto{
+    position: relative;
+    border-top: solid 1px gray;
 }
 
-#texto-azul{
-    color: blue;
+.precio{
+    font-size: 22px;
+}
+
+.descuento{
+    font-size: 20px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.descripcion{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkmagenta;
+}
+  
+.productos-foto-texto{
+    background-color: white;
+    margin-bottom: 15px;
 }
