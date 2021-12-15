@@ -3,22 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-.image{
-    width: 90vw;
-}
-
 header{
     background-color:#EAC926;;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
     width: 100vw;
-    border: solid 1px black;
 }
-.body-color{
-    background-color:#ebebeb;
+body{
+    font-family: Roboto, sans-serif;
+    width: 100vw;
+}
+main{
+    background-color: #ebebeb;
+    width: 100vw;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    width: 300px;
+}
+.no-subrayado{
+    list-style-type: none;
+}
+.burger-menu{
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    display: block;
+    width: 50px;
+    border-radius: 15%;
+    text-align: center;
+    margin: auto;
+}
+.banner-caja{
+    width: 100vw;
+}
+.banner{
+    width: 100%;
 }
 
+.imagen{
+    width: 100%;
+}
+.body-color{
+    background-color:#666;
+}
 .titulares{
     font-size: 24px;
     padding-left: 5vw;
@@ -28,104 +61,70 @@ header{
 .precio{
     font-size: 18px;
 }
-.descuento{
+.descuento, .descripcion{
     font-size: 16px;
 }
-.descripcion{
-    font-size: 16px;
+.texto-cuerpo{
+    font-size: 12px;
+    text-align: center;
+    line-height:20px;
 }
 .precio,.descuento,.descripcion{
     padding-left: 15px;
 }
-
-.posicion-cen{
-    text-align: center;
-}
-.no-subrayado{
-    list-style-type: none;
-   
-}
-
-.burger-menu{
-    font-size: 30px;
-    color: white;
-    background-color: blue;
+.tarjeta-credito, .seguridad, .regalo{
+    font-size: 32px;
+    color:#03264C;
     display: block;
-    width: 45px;
-    border-radius: 15%;
-    text-align: center;
     margin: auto;
-}
-.tarjeta-credito{
-    font-size: 2em;
-    color:#03264C;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-}
-.regalo{
-    font-size: 2em;
-    color:#03264C;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.seguridad{
-    font-size: 2em;
-    color:#03264C;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.logo{
-    width: 300px;
-}
-.banner-caja{
-    width: 100vw;
-}
-.banner{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
-main{
-    background-color: gray;
-    width: 100vw;
-
+.titulares-pie{
+    text-align: center;
+    color: #666;
 }
+.derechos{
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
 .body-color{
     width: 90vw;
     margin: auto;
-    background-color: gray;
+    background-color: #ebebeb;
 }
 
-/*div {
-    border: solid 1px red;
-  }*/
+/*.borde {
+    border: solid 10px red;
+}*/
 
-a {
-    text-decoration: none;
-}
+
 .imagen-producto{
-    width: 90vw;
+    width: 100%;
 }
-.icono{
+.icono-truck{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border:solid 1px red ;
+    border:solid 1px green ;
     text-align: center;
-    color:red;
+    color:green;
     font-size: 20px;
     padding: 12px;
-    right: 20px;
     position: absolute;
+    right: 20px;
     top: -25px;
     background-color: white;
 }
 .icono-texto{
     position: relative;
     border-top: solid 1px gray;
+    padding-top: 10px;
 }
-
 .precio{
     font-size: 22px;
 }
@@ -144,5 +143,18 @@ a {
   
 .productos-foto-texto{
     background-color: white;
-    margin-bottom: 15px;
+    width: 90vw;
+    margin-bottom: 10px;
+}
+.lista-texto{
+    margin-bottom: 10px;
+}
+.icono-mano{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    border: solid 5px red;
+    width: 100vw;
+    margin: auto;
 }
